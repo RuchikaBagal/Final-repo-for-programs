@@ -5,47 +5,6 @@
 //     int mask = ((1 << count) - 1) << start;  // Create a mask for the specified range
 //     return num ^ mask;  // XOR operation to invert the bits in the range
 // }
-
-// int main() {
-//     int num, start, count;
-
-//     printf("Enter an integer: ");
-//     scanf("%d", &num);
-
-//     printf("Enter starting position: ");
-//     scanf("%d", &start);
-
-//     printf("Enter number of bits to invert: ");
-//     scanf("%d", &count);
-
-//     int invertedNum = invertBitsInRange(num, start, count);
-
-//     printf("Original number: %d\n", num);
-//     printf("Inverted number: %d\n", invertedNum);
-
-//     return 0;
-// }
-
-
-
-
-// int main(){
-//     int numb;
-//     printf("enter the number");
-//     scanf("%d", &numb);
-//     for (int i=0; i<=numb; i++){
-//         numb= numb%10;
-//         // int invert= ~(numb);
-//         int invert;
-//         invert= ~numb;
-//         printf("%d", invert);
-//         numb= numb/10;
-//     }
-//     return 0;
-// }
-
-
-
 #include<stdio.h>
 
 int main(){
@@ -98,3 +57,42 @@ for(j=i-1;j>=0;j--)
 
 return 0;
 }
+
+
+// int main() {
+//     int num, start, count;
+
+//     printf("Enter an integer: ");
+//     scanf("%d", &num);
+
+//     printf("Enter starting position: ");
+//     scanf("%d", &start);
+
+//     printf("Enter number of bits to invert: ");
+//     scanf("%d", &count);
+
+//     int invertedNum = invertBitsInRange(num, start, count);
+
+//     printf("Original number: %d\n", num);
+//     printf("Inverted number: %d\n", invertedNum);
+
+//     return 0;
+// }
+
+
+
+
+// int main(){
+//     int numb;
+//     printf("enter the number");
+//     scanf("%d", &numb);
+//     for (int i=0; i<=numb; i++){
+//         numb= numb%10;
+//         // int invert= ~(numb);
+//         int invert;
+//         invert= ~numb;
+//         printf("%d", invert);
+//         numb= numb/10;
+//     }
+//     return 0;
+// }

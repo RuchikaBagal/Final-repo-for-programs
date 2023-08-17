@@ -1,50 +1,51 @@
 #include<stdio.h>
 #include<string.h>
-int compare(const char *str1, const char *str2);
-
-// int main(){
-//     // char str[]= "abcdef";
-//     // printf("%s", str);
-//     // int size;
-//     // printf("enter the size of string: ");
-//     // scanf("%d", &size);
-//     char str[50];
-//     int length=0;
-//     printf("enter the string:- ");
-//     scanf("%s", &str);
-//     // printf("your entered string is :%s\n", str);
-//     for (int i=0; str[i]!= '\0'; i++){
-//         length= length + 1;
-        
-//     }
-//     printf("the length of the string that you've entered is %d", length);
-//     // printf("%d", length);
-//     return 0;
-// }
-
+// int compare(const char *str1, const char *str2);
 
 int main(){
-    char str1[]= "Hello there";
-    char str2[]= " Hello there";
-    int result= compare(const char *str1, const char *str2);
-    if (result==0){
-        printf("strings are equal");
-    }else{
-        printf("strings are not equal");
-    }
-    return 0;
 
-}
-
-int compare(const char *str1, const char *str2)
-{
-    if (strcmp(str1, str2)==0){
-        return 0;
-    } else{
-        return -1;
+    char str[50];
+    int length=0;
+    printf("enter the string:- ");
+    scanf("%s", &str);
+    // printf("your entered string is :%s\n", str);
+    for (int i=0; str[i]!= '\0'; i++){
+        length= length + 1;
+        
     }
+    printf("the length of the string that you've entered is %d", length);
+    // printf("%d", length);
     return 0;
 }
+
+
+
+
+
+
+
+// int main(){
+//     char str1[]= "Hello there";
+//     char str2[]= " Hello there";
+//     int result= compare(const char *str1, const char *str2);
+//     if (result==0){
+//         printf("strings are equal");
+//     }else{
+//         printf("strings are not equal");
+//     }
+//     return 0;
+
+// }
+
+// int compare(const char *str1, const char *str2)
+// {
+//     if (strcmp(str1, str2)==0){
+//         return 0;
+//     } else{
+//         return -1;
+//     }
+//     return 0;
+// }
 
 
 
